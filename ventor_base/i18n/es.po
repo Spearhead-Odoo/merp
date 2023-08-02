@@ -1,0 +1,1001 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ventor_base
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-01 23:50+0000\n"
+"PO-Revision-Date: 2023-08-01 18:53-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#. module: ventor_base
+#: code:addons/ventor_base/models/stock_picking.py:0
+#, python-format
+msgid "'Autocomplete item quantity' is available only if 'Change destination location' is enabled"
+msgstr "\"Cantidad de elementos de autocompletar\" solo está disponible si está habilitado \"Cambiar ubicación de destino\""
+
+#. module: ventor_base
+#: code:addons/ventor_base/models/stock_picking.py:0
+#, python-format
+msgid "'Change source location' is available only if 'Confirm source location' is enabled"
+msgstr "'Cambiar ubicación de origen' solo está disponible si 'Confirmar ubicación de origen' está habilitado"
+
+#. module: ventor_base
+#: model_terms:ir.ui.view,arch_db:ventor_base.view_stock_config_settings
+msgid "<span class=\"o_form_label\">Custom Build Name</span>"
+msgstr "<span class=\"o_form_label\">Nombre de compilación personalizado</span>"
+
+#. module: ventor_base
+#: model_terms:ir.ui.view,arch_db:ventor_base.view_stock_config_settings
+msgid "<span class=\"o_form_label\">Custom Mobile Logo</span>"
+msgstr "<span class=\"o_form_label\">Logotipo móvil personalizado</span>"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_ventor_option_setting__action_type
+msgid "Action Type"
+msgstr "Tipo de acción"
+
+#. module: ventor_base
+#: model_terms:ir.ui.view,arch_db:ventor_base.view_stock_config_settings
+msgid "Add Outgoing Routing strategy options (sort locations)"
+msgstr "Agregar opciones de estrategia de enrutamiento saliente (ordenar ubicaciones)"
+
+#. module: ventor_base
+#: model_terms:ir.ui.view,arch_db:ventor_base.view_stock_config_settings
+msgid "Additional Customisation"
+msgstr "Personalización adicional"
+
+#. module: ventor_base
+#: model:res.groups,name:ventor_base.ventor_role_admin
+msgid "Administrator"
+msgstr "Administrador"
+
+#. module: ventor_base
+#: model:ir.model.fields,help:ventor_base.field_stock_picking_type__manage_product_owner
+msgid "Allow scan product owner. You can specify product owner while moving items. Working only with 'Consignment' setting on Odoo side"
+msgstr ""
+"Permitir escanear el propietario del producto. Puede especificar el propietario del producto mientras mueve artículos. Trabajando solo "
+"con la configuración 'Consignment' en el lado de Odoo"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_stock_picking_batch__allowed_picking_ids
+msgid "Allowed Picking"
+msgstr "Allowed Picking"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_res_users__allowed_warehouse_ids
+msgid "Allowed Warehouses"
+msgstr "Almacenes permitidos"
+
+#. module: ventor_base
+#: model:ir.model.fields,help:ventor_base.field_stock_picking_type__transfer_more_items
+msgid "Allows moving more items than expected (for example kg of meat, etc)"
+msgstr "Permite mover más artículos de los esperados (por ejemplo, kg de carne, etc.)"
+
+#. module: ventor_base
+#: model:ir.model.fields.selection,name:ventor_base.selection__stock_picking_type__behavior_on_backorder_creation__always_create_backorder
+msgid "Always Create Backorder"
+msgstr "Crear siempre un pedido pendiente"
+
+#. module: ventor_base
+#: model:ir.model.fields.selection,name:ventor_base.selection__stock_picking_type__behavior_on_split_operation__always_move_less_items
+msgid "Always Move Less Items"
+msgstr "Mover siempre menos elementos"
+
+#. module: ventor_base
+#: model:ir.model.fields.selection,name:ventor_base.selection__stock_picking_type__behavior_on_split_operation__always_split_line
+msgid "Always Split the Line"
+msgstr "Siempre divida la línea"
+
+#. module: ventor_base
+#: code:addons/ventor_base/models/ventor_option_setting.py:0
+#, python-format
+msgid "Another Settings were changed automatically!"
+msgstr "¡Otra configuración se cambió automáticamente!"
+
+#. module: ventor_base
+#: code:addons/ventor_base/models/res_company.py:0
+#, python-format
+msgid "Apparently, the logotype is not a .png file or the file was incorrectly converted to .png format"
+msgstr "Aparentemente, el logotipo no es un archivo .png o el archivo se convirtió incorrectamente al formato .png"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_stock_picking_type__apply_default_lots
+msgid "Apply default lots and serials"
+msgstr "Aplicar lotes y series predeterminados"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_stock_picking_type__apply_quantity_automatically
+msgid "Apply quantity automatically"
+msgstr "Aplicar cantidad automáticamente"
+
+#. module: ventor_base
+#: model:ir.model.fields.selection,name:ventor_base.selection__stock_picking_type__behavior_on_backorder_creation__ask_me_every_time
+#: model:ir.model.fields.selection,name:ventor_base.selection__stock_picking_type__behavior_on_split_operation__ask_me_every_time
+msgid "Ask Me Every Time"
+msgstr "Pregúntame cada vez"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_stock_picking_type__autocomplete_the_item_quantity_field
+msgid "Autocomplete item quantity"
+msgstr "Cantidad de artículos de Autocompletar"
+
+#. module: ventor_base
+#: model:ir.model.fields,help:ventor_base.field_stock_picking_type__autocomplete_the_item_quantity_field
+msgid "Automatically insert expected quantity. No need to enter the quantity of goods using the keyboard or using scanning"
+msgstr ""
+"Inserte automáticamente la cantidad esperada. No es necesario ingresar la cantidad de productos usando el teclado o usando el escaneo"
+
+#. module: ventor_base
+#: model:ir.model.fields,help:ventor_base.field_stock_picking_type__apply_quantity_automatically
+msgid ""
+"Automatically validate the line after scanning a destination location. Warning: you have to insert QTY first before destination "
+"location"
+msgstr ""
+"Valide automáticamente la línea después de escanear una ubicación de destino. Advertencia: primero debe insertar QTY antes de la "
+"ubicación de destino"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_res_config_settings__base_version
+#: model_terms:ir.ui.view,arch_db:ventor_base.view_stock_config_settings
+msgid "Base Module Version"
+msgstr "Versión del módulo base"
+
+#. module: ventor_base
+#: model:ir.actions.act_window,name:ventor_base.ventor_batch_picking_action
+#: model:ir.model.fields.selection,name:ventor_base.selection__ventor_option_setting__action_type__batch_picking
+#: model:ir.ui.menu,name:ventor_base.ventor_batch_picking_app_menu
+msgid "Batch Picking"
+msgstr "Agrupación de Pickings"
+
+#. module: ventor_base
+#: model:res.groups,name:ventor_base.merp_menu_picking_wave
+msgid "Batch Picking Menu"
+msgstr "Menú de preparación por lotes"
+
+#. module: ventor_base
+#: model:res.groups,name:ventor_base.merp_picking_wave_allow_done
+msgid "Batch Picking: Close batch picking"
+msgstr "Preparación de pedidos por lotes: cierre la preparación de pedidos por lotes"
+
+#. module: ventor_base
+#: model:ir.model,name:ventor_base.model_stock_picking_batch
+msgid "Batch Transfer"
+msgstr "Transferencia por lotes"
+
+#. module: ventor_base
+#: code:addons/ventor_base/models/ventor_option_setting.py:0
+#, python-format
+msgid ""
+"Because you changed \"Add boxes before cluster\" to True, automatically the following settings were also changed: \n"
+"- \"Multiple boxes for one transfer\" was changed to False"
+msgstr ""
+"Dado que cambió \"Agregar cuadros antes del clúster\" a True, también se cambió automáticamente la siguiente configuración: \n"
+"- \"Varias cajas para una transferencia\" se cambió a Falso"
+
+#. module: ventor_base
+#: code:addons/ventor_base/models/ventor_option_setting.py:0
+#, python-format
+msgid ""
+"Because you changed \"Move multiple items\" to True, automatically the following settings were also changed: \n"
+"- \"Hold destination location\" was changed to False"
+msgstr ""
+"Dado que cambió \"Mover varios elementos\" a True, también se cambió automáticamente la siguiente configuración: \n"
+"- \"Ubicación de destino de espera\" se cambió a Falso"
+
+#. module: ventor_base
+#: code:addons/ventor_base/models/ventor_option_setting.py:0
+#, python-format
+msgid ""
+"Because you changed \"Show packages fields\" to False, automatically the following settings were also changed: \n"
+"- \"Confirm source package\" was changed to False\n"
+"- \"Force destination package scan\" was changed to False"
+msgstr ""
+"Dado que cambió \"Mostrar campos de paquetes\" a False, también se cambió automáticamente la siguiente configuración: \n"
+"- \"Confirmar paquete fuente\" se cambió a Falso\n"
+"- \"Forzar escaneo del paquete de destino\" se cambió a Falso"
+
+#. module: ventor_base
+#: code:addons/ventor_base/models/ventor_option_setting.py:0
+#, python-format
+msgid ""
+"Because you changed \"​Confirm source location\" to False, automatically the following settings were also changed: \n"
+"- \"Change source location\" was changed to False"
+msgstr ""
+"Dado que cambió \"Confirmar ubicación de origen\" a False, también se cambió automáticamente la siguiente configuración: \n"
+"- \"Cambiar ubicación de origen\" se cambió a Falso"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_stock_picking_type__behavior_on_backorder_creation
+msgid "Behavior On Backorder Creation"
+msgstr "Comportamiento en la creación de pedidos pendientes"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_stock_picking_type__behavior_on_split_operation
+msgid "Behavior On Split Operation"
+msgstr "Comportamiento en la operación dividida"
+
+#. module: ventor_base
+#: model:ir.model.fields.selection,name:ventor_base.selection__ventor_option_setting__value_type__bool
+msgid "Boolean"
+msgstr "Booleano"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_stock_picking_type__change_destination_location
+msgid "Change destination location"
+msgstr "Cambiar la ubicación de destino"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_stock_picking_type__change_source_location
+msgid "Change source location"
+msgstr "Cambiar la ubicación del origen"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_stock_picking_type__check_shipping_information
+msgid "Check shipping information"
+msgstr "Comprobar la información de envío"
+
+#. module: ventor_base
+#: model:ir.model.fields,help:ventor_base.field_stock_picking_type__behavior_on_backorder_creation
+msgid "Choose how to process backorders. You can always create backorders, always ignore backorders or choose it all the time (default)"
+msgstr ""
+"Elija cómo procesar los pedidos pendientes. Siempre puede crear pedidos pendientes, ignorar siempre pedidos pendientes o elegirlos "
+"todo el tiempo (predeterminado)"
+
+#. module: ventor_base
+#: model:ir.model.fields,help:ventor_base.field_stock_picking_type__behavior_on_split_operation
+msgid ""
+"Choose how to process less product qty than initial. You can always split the line, always move less items or choose it all the "
+"time(default)"
+msgstr ""
+"Elija cómo procesar menos cantidad de producto que la inicial. Siempre puede dividir la línea, mover siempre menos elementos o "
+"elegirlo todo el tiempo (predeterminado)"
+
+#. module: ventor_base
+#: model:ir.actions.act_window,name:ventor_base.ventor_cluster_picking_action
+#: model:ir.model.fields.selection,name:ventor_base.selection__ventor_option_setting__action_type__cluster_picking
+#: model:ir.ui.menu,name:ventor_base.ventor_cluster_picking_app_menu
+msgid "Cluster Picking"
+msgstr "Picking en Clúster"
+
+#. module: ventor_base
+#: model:res.groups,name:ventor_base.merp_cluster_picking_menu
+msgid "Cluster Picking Menu"
+msgstr "Menú de selección de clústeres"
+
+#. module: ventor_base
+#: model:ir.model,name:ventor_base.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: ventor_base
+#: model:ir.model,name:ventor_base.model_res_config_settings
+msgid "Config Settings"
+msgstr "Opciones de Configuración"
+
+#. module: ventor_base
+#: model:ir.actions.act_window,name:ventor_base.ventor_configs_action
+msgid "Configuration"
+msgstr "Configuración"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_stock_picking_type__confirm_destination_location
+msgid "Confirm destination location"
+msgstr "Confirmar la ubicación de destino"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_stock_picking_type__confirm_product
+msgid "Confirm product"
+msgstr "Confirmar producto"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_stock_picking_type__confirm_source_location
+msgid "Confirm source location"
+msgstr "Confirmar ubicación de origen"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_stock_picking_type__confirm_source_package
+msgid "Confirm source package"
+msgstr "Confirmar paquete de origen"
+
+#. module: ventor_base
+#: model:res.groups,name:ventor_base.merp_menu_create_purchase_order
+msgid "Create Purchase Order Menu"
+msgstr "Crear menú de pedido de compra"
+
+#. module: ventor_base
+#: model:res.groups,name:ventor_base.merp_menu_create_sales_order
+msgid "Create Sales Order Menu"
+msgstr "Crear menú de pedido de ventas"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_ventor_option_setting__create_uid
+#: model:ir.model.fields,field_description:ventor_base.field_ventor_setting_value__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_ventor_option_setting__create_date
+#: model:ir.model.fields,field_description:ventor_base.field_ventor_setting_value__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_res_users__custom_package_name
+msgid "Custom Build Name"
+msgstr "Nombre de compilación personalizado"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_res_config_settings__custom_package_name
+msgid "Custom package name"
+msgstr "Nombre del paquete personalizado"
+
+#. module: ventor_base
+#: model:res.groups,name:ventor_base.merp_debug
+msgid "Debug: Technical Features"
+msgstr "Depurar: características técnicas"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_ventor_option_setting__description
+msgid "Description"
+msgstr "Descripción"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_ventor_option_setting__display_name
+#: model:ir.model.fields,field_description:ventor_base.field_ventor_setting_value__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: ventor_base
+#: model:res.groups,comment:ventor_base.merp_menu_allow_changing_settings
+msgid ""
+"Enable to allow to define local Ventor settings \n"
+"                              from Ventor application interface."
+msgstr ""
+"Habilitar para permitir definir la configuración local de Ventor \n"
+"                              desde la interfaz de la aplicación Ventor."
+
+#. module: ventor_base
+#: model:res.groups,comment:ventor_base.merp_manage_ventor_configuration_app
+msgid ""
+"Enable to see new root menu \"Ventor Configuration\" \n"
+"                              that will allow to define global Ventor settings \n"
+"                              from the Odoo interface."
+msgstr ""
+"Habilite para ver el nuevo menú raíz \"Configuración de Ventor\" \n"
+"                              que permitirá definir la configuración global de Ventor \n"
+"                              desde la interfaz de Odoo."
+
+#. module: ventor_base
+#: model:res.groups,name:ventor_base.merp_external_management
+msgid "External Transfers Menu"
+msgstr "Menú Transferencias Externas"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_res_company__force_lot_validation_on_inventory_adjustment
+#: model:ir.model.fields,field_description:ventor_base.field_res_config_settings__force_lot_validation_on_inventory_adjustment
+msgid "Force Lot Validation on Inventory Adjustment"
+msgstr "Forzar la validación del lote en el ajuste de inventario"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_stock_picking_type__scan_destination_package
+msgid "Force destination package scan"
+msgstr "Forzar análisis del paquete de destino"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_res_users__ventor_global_settings
+msgid "Global Settings"
+msgstr "Ajustes globales"
+
+#. module: ventor_base
+#: model:ir.ui.menu,name:ventor_base.ventor_settings_app_menu
+msgid "Global Ventor Settings"
+msgstr "Configuración global de Ventor"
+
+#. module: ventor_base
+#: model_terms:ir.ui.view,arch_db:ventor_base.view_location_search
+msgid "Group by..."
+msgstr "Agrupar por..."
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_stock_picking_type__hide_qty_to_receive
+msgid "Hide QTYs to receive"
+msgstr "Ocultar QTYs para recibir"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_ventor_option_setting__id
+#: model:ir.model.fields,field_description:ventor_base.field_ventor_setting_value__id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: ventor_base
+#: model:res.groups,comment:ventor_base.merp_menu_use_local_user_device_settings
+msgid ""
+"If it's checked, the manual settings (defined on device by this user) \n"
+"                              will be used instead Global Ventor Settings in Odoo. \n"
+"                              If it's unchecked the user will not be able to modify settings on the \n"
+"                              device manually. Global Ventor Settings will be used instead."
+msgstr ""
+"Si está marcado, la configuración manual (definida en el dispositivo por este usuario) \n"
+"                              se utilizará en su lugar Global Ventor Settings en Odoo. \n"
+"                              Si no está marcada, el usuario no podrá modificar la configuración en el \n"
+"                              dispositivo manualmente. En su lugar, se utilizará la configuración global de Ventor."
+
+#. module: ventor_base
+#: model:ir.model.fields,help:ventor_base.field_stock_picking_type__apply_default_lots
+msgid ""
+"If it's on, you don't need to scan lot number to confirm it. On receipts the app will create default Odoo lots and apply them to the "
+"product. On delivery zone you don't need to confirm lots and they will be taken Odoo by default"
+msgstr ""
+"Si está activado, no es necesario escanear el número de lote para confirmarlo. En los recibos, la aplicación creará lotes "
+"predeterminados de Odoo y los aplicará al producto. En la zona de entrega no necesita confirmar lotes y se tomarán Odoo por defecto"
+
+#. module: ventor_base
+#: model:ir.model.fields,help:ventor_base.field_stock_picking_type__check_shipping_information
+msgid "If the setting is active the user can edit shipping information before validate OUT transfer"
+msgstr "Si la configuración está activa, el usuario puede editar la información de envío antes de validar la transferencia OUT"
+
+#. module: ventor_base
+#: model:ir.model.fields,help:ventor_base.field_stock_picking_type__scan_destination_package
+msgid "If this active user has to scan a destination package (pallet) all the time"
+msgstr "Si este usuario activo tiene que escanear un paquete de destino (palet) todo el tiempo"
+
+#. module: ventor_base
+#: model:ir.model.fields,help:ventor_base.field_stock_picking_type__change_destination_location
+msgid "If this setting is active a user can change destination location while receiving to be placed at any available location"
+msgstr ""
+"Si esta configuración está activa, un usuario puede cambiar la ubicación de destino mientras recibe para colocarla en cualquier "
+"ubicación disponible"
+
+#. module: ventor_base
+#: model:ir.actions.act_window,name:ventor_base.ventor_instant_inventory_action
+#: model:ir.model.fields.selection,name:ventor_base.selection__ventor_option_setting__action_type__instant_inventory
+#: model:ir.ui.menu,name:ventor_base.ventor_instant_inventory_app_menu
+msgid "Instant Inventory"
+msgstr "Inventario instantáneo"
+
+#. module: ventor_base
+#: model:res.groups,name:ventor_base.merp_menu_instant_inventory
+msgid "Instant Inventory Menu"
+msgstr "Menú de inventario instantáneo"
+
+#. module: ventor_base
+#: model:ir.actions.act_window,name:ventor_base.ventor_internal_transfers_action
+#: model:ir.model.fields.selection,name:ventor_base.selection__ventor_option_setting__action_type__internal_transfers
+#: model:ir.ui.menu,name:ventor_base.ventor_internal_transfers_app_menu
+msgid "Internal Transfers"
+msgstr "Traslados internos"
+
+#. module: ventor_base
+#: model:res.groups,name:ventor_base.merp_menu_instant_move
+msgid "Internal Transfers Menu"
+msgstr "Menú Transferencias internas"
+
+#. module: ventor_base
+#: model:ir.model,name:ventor_base.model_stock_inventory
+msgid "Inventory"
+msgstr "Inventario"
+
+#. module: ventor_base
+#: model:ir.actions.act_window,name:ventor_base.ventor_inventory_adjustments_action
+#: model:ir.model.fields.selection,name:ventor_base.selection__ventor_option_setting__action_type__inventory_adjustments
+#: model:ir.ui.menu,name:ventor_base.ventor_inventory_adjustments_app_menu
+msgid "Inventory Adjustments"
+msgstr "Ajustes de inventario"
+
+#. module: ventor_base
+#: model:res.groups,name:ventor_base.merp_menu_inventory_adjustments
+msgid "Inventory Adjustments Menu"
+msgstr "Menú de ajustes de inventario"
+
+#. module: ventor_base
+#: model:res.groups,name:ventor_base.merp_inventory_allow_ready_state
+msgid "Inventory Adjustments: Waiting for Validation"
+msgstr "Ajustes de inventario: esperando validación"
+
+#. module: ventor_base
+#: model:ir.model,name:ventor_base.model_stock_inventory_line
+msgid "Inventory Line"
+msgstr "Línea inventario"
+
+#. module: ventor_base
+#: model:ir.model,name:ventor_base.model_stock_location
+msgid "Inventory Locations"
+msgstr "Ubicaciones de inventario"
+
+#. module: ventor_base
+#: model_terms:ir.ui.view,arch_db:ventor_base.view_stock_config_settings
+msgid "Inventory settings"
+msgstr "Configuraciones del inventario"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_stock_picking_type__is_consignment_enabled
+msgid "Is Consignment Enabled"
+msgstr "Está habilitada la consignación"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_stock_warehouse__is_internal
+msgid "Is Internal Warehouse"
+msgstr "Es un almacén interno"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_stock_picking_type__is_package_tracking_enabled
+msgid "Is Package Tracking Enabled"
+msgstr "Está habilitado el seguimiento de paquetes"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_stock_picking_type__is_stock_production_lot_enabled
+msgid "Is Stock Production Lot Enabled"
+msgstr "Está habilitado el lote de producción de existencias"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_ventor_option_setting____last_update
+#: model:ir.model.fields,field_description:ventor_base.field_ventor_setting_value____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_ventor_option_setting__write_uid
+#: model:ir.model.fields,field_description:ventor_base.field_ventor_setting_value__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_ventor_option_setting__write_date
+#: model:ir.model.fields,field_description:ventor_base.field_ventor_setting_value__write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: ventor_base
+#: model:ir.model.fields,help:ventor_base.field_res_users__allowed_warehouse_ids
+msgid "List of all warehouses user has access to"
+msgstr "Lista de todos los almacenes a los que el usuario tiene acceso"
+
+#. module: ventor_base
+#: model:ir.model.fields,help:ventor_base.field_stock_picking_batch__picking_ids
+msgid "List of transfers associated to this batch"
+msgstr "Lista de transferencias asociadas a este lote"
+
+#. module: ventor_base
+#: model:res.groups,name:ventor_base.merp_menu_manufacturing
+msgid "MO and WO management"
+msgstr "Gestión de MO y WO"
+
+#. module: ventor_base
+#: model:res.groups,name:ventor_base.merp_menu_allow_changing_settings
+msgid "Manage Local User Device Settings"
+msgstr "Administrar la configuración del dispositivo de usuario local"
+
+#. module: ventor_base
+#: model:res.groups,name:ventor_base.merp_manage_ventor_configuration_app
+msgid "Manage Ventor Configuration app"
+msgstr "Administrar la aplicación Ventor Configuration"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_stock_picking_type__transfer_more_items
+msgid "Move more than planned"
+msgstr "Muévete más de lo planeado"
+
+#. module: ventor_base
+#: model_terms:ir.ui.view,arch_db:ventor_base.res_user_form
+msgid "Multi Warehouses"
+msgstr "Almacenes múltiples"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_ventor_option_setting__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: ventor_base
+#: model:ir.model.fields.selection,name:ventor_base.selection__stock_picking_type__behavior_on_backorder_creation__never_create_backorder
+msgid "Never Create Backorder"
+msgstr "Nunca cree pedidos pendientes"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_stock_picking_batch__picking_type_id
+msgid "Operation Type"
+msgstr "Tipo de operación"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_res_config_settings__module_outgoing_routing
+msgid "Outgoing Routing"
+msgstr "Enrutamiento saliente"
+
+#. module: ventor_base
+#: model:ir.actions.act_window,name:ventor_base.ventor_package_management_action
+#: model:ir.model.fields.selection,name:ventor_base.selection__ventor_option_setting__action_type__package_management
+#: model:ir.ui.menu,name:ventor_base.ventor_package_management_app_menu
+msgid "Package Management"
+msgstr "Gestión de Paquetes"
+
+#. module: ventor_base
+#: model:res.groups,name:ventor_base.merp_package_management
+msgid "Package Management Menu"
+msgstr "Menú de administración de paquetes"
+
+#. module: ventor_base
+#: model:ir.model,name:ventor_base.model_stock_picking_type
+msgid "Picking Type"
+msgstr "Tipo de albarán"
+
+#. module: ventor_base
+#: model:ir.model.fields,help:ventor_base.field_stock_picking_type__show_next_product
+msgid ""
+"Product field will show the next product to be picked. Use the setting during picking and delivery. It is recommended to disable the "
+"setting for the reception area"
+msgstr ""
+"El campo Producto mostrará el siguiente producto a recoger. Utilice la configuración durante la recogida y la entrega. Se recomienda "
+"desactivar la configuración para el área de recepción"
+
+#. module: ventor_base
+#: model:ir.actions.act_window,name:ventor_base.ventor_putaway_action
+#: model:ir.model.fields.selection,name:ventor_base.selection__ventor_option_setting__action_type__putaway
+#: model:ir.ui.menu,name:ventor_base.ventor_putaway_app_menu
+msgid "Putaway"
+msgstr "Almacenamiento"
+
+#. module: ventor_base
+#: model:res.groups,name:ventor_base.merp_putaway
+msgid "Putaway Menu"
+msgstr "Menú Putaway"
+
+#. module: ventor_base
+#: model:ir.model.fields.selection,name:ventor_base.selection__ventor_option_setting__action_type__quick_info
+msgid "Quick Info"
+msgstr "Información rápida"
+
+#. module: ventor_base
+#: model:res.groups,name:ventor_base.merp_menu_info
+msgid "Quick Info Menu"
+msgstr "Menú de información rápida"
+
+#. module: ventor_base
+#: model:res.groups,name:ventor_base.merp_menu_allow_update_product_on_hand
+msgid "Quick Info: Update product on hand"
+msgstr "Información rápida: Actualizar el producto disponible"
+
+#. module: ventor_base
+#: model:ir.actions.act_window,name:ventor_base.ventor_quick_info_action model:ir.ui.menu,name:ventor_base.ventor_quick_info_app_menu
+msgid "Quick info"
+msgstr "Información rápida"
+
+#. module: ventor_base
+#: model:ir.model.fields,help:ventor_base.field_stock_picking_type__manage_packages
+msgid ""
+"Scan source (destination) packages right after scanning source (destination) location. Use it if you move from one package to another "
+"or pick items from packages or pallets. Works only if package management settings is active on Odoo side.\n"
+"\n"
+" If you want to use Show packages fields, you must turn on setting 'Delivery Packages' in inventory settings"
+msgstr ""
+"Analice los paquetes de origen (destino) inmediatamente después de escanear la ubicación de origen (destino). Úselo si se mueve de un "
+"paquete a otro o recoge artículos de paquetes o paletas. Funciona solo si la configuración de administración de paquetes está activa "
+"en el lado de Odoo.\n"
+"\n"
+"Si quieres usar Mostrar campos de paquetes, debes activar la configuración de \"Paquetes de entrega\" en la configuración de inventario"
+
+#. module: ventor_base
+#: model:ir.actions.act_window,name:ventor_base.ventor_scrap_management_action
+#: model:ir.model.fields.selection,name:ventor_base.selection__ventor_option_setting__action_type__scrap_management
+#: model:ir.ui.menu,name:ventor_base.ventor_scrap_management_app_menu model:res.groups,name:ventor_base.merp_scrap_management
+msgid "Scrap Management"
+msgstr "Gestión de Chatarra / Desperdicios"
+
+#. module: ventor_base
+#: model:ir.model.fields.selection,name:ventor_base.selection__ventor_option_setting__value_type__select
+msgid "Selection"
+msgstr "Selección"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_ventor_setting_value__setting_type
+msgid "Setting Type"
+msgstr "Tipo de configuración"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_ventor_setting_value__setting_value
+msgid "Setting Value"
+msgstr "Valor de ajuste"
+
+#. module: ventor_base
+#: model:ir.ui.menu,name:ventor_base.ventor_app_settings
+msgid "Settings"
+msgstr "Ajustes"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_ventor_option_setting__settings_dependency
+msgid "Settings Dependency"
+msgstr "Dependencia de configuración"
+
+#. module: ventor_base
+#: model:ir.model.fields,help:ventor_base.field_stock_picking_type__hide_qty_to_receive
+msgid "Setting’s description: User will not see how many QTYs they need to receive."
+msgstr "Descripción de la configuración: El usuario no verá cuántos QTYs necesita recibir."
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_stock_picking_type__show_print_attachment_button
+msgid "Show Print attachments button"
+msgstr "Botón Mostrar archivos adjuntos de impresión"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_stock_picking_type__manage_product_owner
+msgid "Show Product Owner field"
+msgstr "Campo Mostrar propietario del producto"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_stock_picking_type__show_put_in_pack_button
+msgid "Show Put in pack button"
+msgstr "Mostrar botón Poner en paquete"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_stock_picking_type__show_next_product
+msgid "Show next product"
+msgstr "Mostrar siguiente producto"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_stock_picking_type__manage_packages
+msgid "Show packages fields"
+msgstr "Mostrar campos de paquetes"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_res_config_settings__add_barcode_on_view
+msgid "Show the Location barcode field on the form"
+msgstr "Mostrar el campo Código de barras Ubicación en el formulario"
+
+#. module: ventor_base
+#: model:ir.model.fields,help:ventor_base.field_stock_picking_type__show_print_attachment_button
+msgid "Showing the Print attachments button in the toolbar instead of keeping it in the hidden menu"
+msgstr "Mostrar el botón Imprimir archivos adjuntos en la barra de herramientas en lugar de mantenerlo en el menú oculto"
+
+#. module: ventor_base
+#: model:ir.model.fields,help:ventor_base.field_stock_picking_type__show_put_in_pack_button
+msgid "Showing the Put in pack button in the toolbar instead of keeping it in the hidden menu"
+msgstr "Mostrar el botón Poner en paquete en la barra de herramientas en lugar de mantenerlo en el menú oculto"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_ventor_option_setting__technical_name
+msgid "Technical Name"
+msgstr "Nombre técnico"
+
+#. module: ventor_base
+#: model:ir.model.fields,help:ventor_base.field_stock_picking_type__confirm_destination_location
+msgid "The dot next to the field gets yellow color means user has to confirm it. User has to scan a barcode of destination location"
+msgstr ""
+"El punto al lado del campo obtiene color amarillo significa que el usuario tiene que confirmarlo. El usuario tiene que escanear un "
+"código de barras de la ubicación de destino"
+
+#. module: ventor_base
+#: model:ir.model.fields,help:ventor_base.field_stock_picking_type__confirm_product
+msgid "The dot next to the field gets yellow color means user has to confirm it. User has to scan a barcode of product."
+msgstr ""
+"El punto al lado del campo obtiene color amarillo significa que el usuario tiene que confirmarlo. El usuario tiene que escanear un "
+"código de barras del producto."
+
+#. module: ventor_base
+#: model:ir.model.fields,help:ventor_base.field_stock_picking_type__confirm_source_location
+msgid "The dot next to the field gets yellow color means user has to confirm it. User has to scan a barcode of source location"
+msgstr ""
+"El punto al lado del campo obtiene color amarillo significa que el usuario tiene que confirmarlo. El usuario tiene que escanear un "
+"código de barras de la ubicación de origen"
+
+#. module: ventor_base
+#: code:addons/ventor_base/models/stock_picking_batch.py:0
+#, python-format
+msgid ""
+"The following transfers cannot be added to batch transfer %s. Please check their states and operation types, if they aren't immediate "
+"transfers or if they're not already part of another batch transfer.\n"
+"\n"
+"Incompatibilities: %s"
+msgstr ""
+"Las siguientes transferencias no se pueden agregar a la transferencia por lotes %s. Compruebe sus estados y tipos de operación, si no "
+"son transferencias inmediatas o si aún no forman parte de otra transferencia por lotes.\n"
+"\n"
+"Incompatibilidades: %s"
+
+#. module: ventor_base
+#: model:res.groups,comment:ventor_base.merp_user_validate_inventory_adjustment
+msgid "The group allows Inventory/User to validate inventory"
+msgstr "El grupo permite que Inventario/Usuario valide el inventario"
+
+#. module: ventor_base
+#: code:addons/ventor_base/models/res_company.py:0
+#, python-format
+msgid "The logotype can't be less than {}x{} px."
+msgstr "El logotipo no puede ser inferior a {}x{} px."
+
+#. module: ventor_base
+#: model:ir.model,name:ventor_base.model_stock_picking
+msgid "Transfer"
+msgstr "Albarán"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_stock_picking_batch__picking_ids
+msgid "Transfers"
+msgstr "Transferencias"
+
+#. module: ventor_base
+#: model:ir.actions.server,name:ventor_base.action_location_warehouse
+msgid "Update Warehouse"
+msgstr "Almacén de actualizaciones"
+
+#. module: ventor_base
+#: model:res.groups,name:ventor_base.merp_menu_use_local_user_device_settings
+msgid "Use Local User Device Settings"
+msgstr "Usar la configuración del dispositivo de usuario local"
+
+#. module: ventor_base
+#: model_terms:ir.ui.view,arch_db:ventor_base.view_stock_config_settings
+msgid "Use it to activate barcodes for the Community version"
+msgstr "Úsalo para activar códigos de barras para la versión Community"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_res_users__ventor_user_settings
+#: model:ir.ui.menu,name:ventor_base.ventor_app_user_settings_menu
+msgid "User Settings"
+msgstr "Ajustes de usuario"
+
+#. module: ventor_base
+#: model:ir.model.fields,help:ventor_base.field_stock_picking_type__change_source_location
+msgid ""
+"User can change default source location to pick item from another location. Works only if 'Confirm source location' setting is active"
+msgstr ""
+"El usuario puede cambiar la ubicación de origen predeterminada para seleccionar elementos de otra ubicación. Solo funciona si la "
+"configuración 'Confirmar ubicación de origen' está activa"
+
+#. module: ventor_base
+#: model:ir.model.fields,help:ventor_base.field_stock_picking_type__confirm_source_package
+msgid "User has to scan a barcode of source package. The dot next to the field gets yellow color means user has to confirm it"
+msgstr ""
+"El usuario tiene que escanear un código de barras del paquete fuente. El punto al lado del campo obtiene color amarillo significa que "
+"el usuario tiene que confirmarlo"
+
+#. module: ventor_base
+#: model:ir.model,name:ventor_base.model_res_users
+msgid "Users"
+msgstr "Usuarios"
+
+#. module: ventor_base
+#: model:res.groups,name:ventor_base.merp_user_validate_inventory_adjustment
+msgid "Validate Inventory"
+msgstr "Validar inventario"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_ventor_option_setting__value
+msgid "Value"
+msgstr "Valor"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_ventor_option_setting__value_type
+msgid "Value Type"
+msgstr "Tipo de valor"
+
+#. module: ventor_base
+#: model:ir.module.category,name:ventor_base.module_category_merp_access_application
+msgid "Ventor Access Rights"
+msgstr "Derechos de acceso de Ventor"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_res_company__logotype_file
+#: model:ir.model.fields,field_description:ventor_base.field_res_config_settings__logotype_file
+msgid "Ventor Application Logo File"
+msgstr "Archivo de logotipo de la aplicación Ventor"
+
+#. module: ventor_base
+#: model_terms:ir.ui.view,arch_db:ventor_base.view_stock_config_settings
+msgid "Ventor Application modules"
+msgstr "Módulos de aplicación Ventor"
+
+#. module: ventor_base
+#: model:ir.model.fields,field_description:ventor_base.field_res_users__ventor_base_version
+msgid "Ventor Base Version"
+msgstr "Versión base de Ventor"
+
+#. module: ventor_base
+#: model:ir.ui.menu,name:ventor_base.ventor_app_base_menu model_terms:ir.ui.view,arch_db:ventor_base.ventor_stock_picking_form
+#: model_terms:ir.ui.view,arch_db:ventor_base.view_stock_config_settings
+msgid "Ventor Configuration"
+msgstr "Ventor"
+
+#. module: ventor_base
+#: model:ir.module.category,name:ventor_base.module_category_merp_menu_application
+msgid "Ventor Menu Management"
+msgstr "Gestión de menús de Ventor"
+
+#. module: ventor_base
+#: model:ir.model,name:ventor_base.model_ventor_option_setting
+msgid "Ventor Option Setting"
+msgstr "Configuración de la opción Ventor"
+
+#. module: ventor_base
+#: model_terms:ir.ui.view,arch_db:ventor_base.res_user_form
+msgid "Ventor Preferences"
+msgstr "Preferencias de Ventor"
+
+#. module: ventor_base
+#: model:ir.module.category,name:ventor_base.module_category_ventor_roles
+msgid "Ventor Roles"
+msgstr "Roles de Ventor"
+
+#. module: ventor_base
+#: model:ir.model,name:ventor_base.model_ventor_setting_value
+msgid "Ventor Setting Value"
+msgstr "Valor de configuración de Ventor"
+
+#. module: ventor_base
+#: model:ir.model,name:ventor_base.model_stock_warehouse
+#: model:ir.model.fields,field_description:ventor_base.field_stock_inventory__warehouse_id
+#: model:ir.model.fields,field_description:ventor_base.field_stock_location__warehouse_id
+#: model_terms:ir.ui.view,arch_db:ventor_base.view_location_search
+msgid "Warehouse"
+msgstr "Almacén"
+
+#. module: ventor_base
+#: model:ir.actions.act_window,name:ventor_base.ventor_stock_picking_action
+#: model:ir.ui.menu,name:ventor_base.ventor_wh_operations_app_menu
+msgid "Warehouse Operations"
+msgstr "Operaciones del Almacén"
+
+#. module: ventor_base
+#: model:res.groups,name:ventor_base.merp_menu_warehouse_operations
+msgid "Warehouse Operations Menu"
+msgstr "Menú Operaciones de almacén"
+
+#. module: ventor_base
+#: model:res.groups,name:ventor_base.merp_allow_applying_all_qty_of_product
+msgid "Warehouse Operations: Allow applying all qty of product"
+msgstr "Operaciones de almacén: Permite aplicar toda la cantidad de producto"
+
+#. module: ventor_base
+#: model:ir.model.fields.selection,name:ventor_base.selection__ventor_option_setting__action_type__warehouse_opration
+msgid "Warehouse Opration"
+msgstr "Operación de almacén"
+
+#. module: ventor_base
+#: model:res.groups,name:ventor_base.ventor_role_wh_manager
+msgid "Warehouse manager"
+msgstr "Gerente de almacén"
+
+#. module: ventor_base
+#: model:res.groups,name:ventor_base.ventor_role_wh_worker
+msgid "Warehouse worker"
+msgstr "Trabajador de almacén"
+
+#. module: ventor_base
+#: code:addons/ventor_base/models/stock_picking.py:0
+#, python-format
+msgid "Warning"
+msgstr "Alerta"
+
+#. module: ventor_base
+#: model_terms:ir.ui.view,arch_db:ventor_base.res_user_form
+msgid ""
+"Warning! If the user is Inventory / Administrator, \n"
+"                            the Allowed Warehouses configuration is ignored and \n"
+"                            the user will still be able to see all warehouses"
+msgstr ""
+"¡Advertencia! Si el usuario es Inventario / Administrador, \n"
+"                            se omite la configuración de almacenes permitidos y \n"
+"                            El usuario podrá seguir viendo todos los almacenes"
+
+#. module: ventor_base
+#: code:addons/ventor_base/models/stock_inventory.py:0
+#, python-format
+msgid ""
+"You defined warehouse for the inventory '{}', but locations contain different warehouse(s) in it. Please, leave Warehouse field empty, "
+"or define proper one."
+msgstr ""
+"Definió almacén para el inventario '{}', pero las ubicaciones contienen diferentes almacenes en él. Por favor, deje el campo Almacén "
+"vacío o defina uno adecuado."
+
+#. module: ventor_base
+#: code:addons/ventor_base/models/stock_inventory.py:0
+#, python-format
+msgid "You need to supply a Lot/Serial number for product: %s"
+msgstr "Debe proporcionar un número de lote / serie para el producto: %s"
